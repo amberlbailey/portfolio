@@ -44,6 +44,10 @@ body {
   line-height: 130px;
 }
 
+.brand {
+  line-height: 100px;
+}
+
 .h-logo {
   width: 340px;
   margin: -10px;
