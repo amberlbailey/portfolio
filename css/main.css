@@ -35,6 +35,10 @@ body {
   padding-bottom: 0.5em;
 }
 
+.photos img {
+  width: 99%;
+}
+
 @media only screen and (min-width: 25em) {
 
 
