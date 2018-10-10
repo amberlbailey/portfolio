@@ -4,24 +4,55 @@ html {
   color: #848484;
 }
 
-.nav li {
-  display: inline-block;
+body {
+  margin: 0;
 }
 
 .nav a {
   text-decoration: none;
   color: #848484;
+  padding: 0 9px;
+}
+
+.nav {
+  padding: 2em;
+  text-align: center;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav ul {
+  padding: 0;
+}
+
+.logo {
+  width: 150px;
+}
+
+.logo-wrapper {
+  padding-bottom: 0.5em;
 }
 
 @media only screen and (min-width: 25em) {
-
 
 
 }
 
 @media only screen and (min-width: 38em) {
 
+  .logo-wrapper {
+    text-align: left;
+    position: absolute;
+    top: 2.5%;
+  }
 
+  .nav {
+    padding-bottom: 15em;
+    padding-top: 3em;
+    text-align: right;
+  }
 
 }
 
