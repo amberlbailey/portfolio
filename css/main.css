@@ -49,6 +49,16 @@ body {
   margin: -10px;
 }
 
+footer {
+  background-color: #848484;
+  color: #ffff;
+}
+
+.social img {
+  width: 3em;
+  padding: 1em;
+}
+
 @media only screen and (min-width: 25em) {
 
 
