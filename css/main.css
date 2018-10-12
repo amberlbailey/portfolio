@@ -40,8 +40,8 @@ body {
 }
 
 .big {
-  font-size: 100px;
-  line-height: 130px;
+  font-size: 60px;
+  line-height: -50px;
 }
 
 .brand {
@@ -49,8 +49,8 @@ body {
 }
 
 .h-logo {
-  width: 340px;
-  margin: -10px;
+  width: 270px;
+  margin: -20px;
 }
 
 footer {
@@ -63,8 +63,21 @@ footer {
   padding: 1em;
 }
 
+.caption {
+  color: #848484;
+}
+
 @media only screen and (min-width: 25em) {
 
+  .big {
+    font-size: 100px;
+    line-height: 130px;
+  }
+
+  .h-logo {
+    width: 340px;
+    margin: -10px;
+  }
 
 }
 
