@@ -1,4 +1,3 @@
----
 # Amber Bailey
 
 #### [itsamber.ca](http://itsamber.ca/)
