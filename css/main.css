@@ -67,6 +67,10 @@ footer {
   color: #848484;
 }
 
+.nav li:hover {
+  color: #8cb7d3;
+}
+
 @media only screen and (min-width: 25em) {
 
   .big {
