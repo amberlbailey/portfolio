@@ -90,13 +90,18 @@ footer {
     text-align: right;
   }
 
+  .big {
+    font-size: 70px;
+    line-height: 70px
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
   .big {
     font-size: 100px;
-    line-height: 100px
+    line-height: 150px
   }
 
 }
