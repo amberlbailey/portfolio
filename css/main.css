@@ -41,7 +41,7 @@ body {
 
 .big {
   font-size: 60px;
-  line-height: -20px;
+  line-height: 100px;
 }
 
 .brand {
@@ -75,7 +75,7 @@ footer {
 
   .big {
     font-size: 85px;
-    line-height: 150px;
+    line-height: -20px;
   }
 
   .h-logo {
