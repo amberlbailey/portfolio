@@ -74,8 +74,8 @@ footer {
 @media only screen and (min-width: 25em) {
 
   .big {
-    font-size: 90px;
-    line-height: 50px;
+    font-size: 85px;
+    line-height: 70px;
   }
 
   .h-logo {
