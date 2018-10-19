@@ -39,6 +39,11 @@ body {
   width: 99%;
 }
 
+.big {
+  font-size: 60px;
+  line-height: -20px;
+}
+
 .brand {
   line-height: 100px;
 }
