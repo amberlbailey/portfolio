@@ -39,10 +39,6 @@ body {
   width: 99%;
 }
 
-.brand {
-  line-height: 100px;
-}
-
 .h-logo {
   width: 270px;
   margin: -20px;
@@ -100,6 +96,7 @@ footer {
 
   .big {
     font-size: 100px;
+    line-height: 50px
   }
 
 }
