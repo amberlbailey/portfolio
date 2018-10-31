@@ -1,7 +1,7 @@
 html {
   font-family: 'Roboto', sans-serif;
   background-color: #ffff;
-  color: #484848;
+  color: #3A3E3C;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 
 .nav a {
   text-decoration: none;
-  color: #484848;
+  color: #3A3E3C;
   padding: 0 9px;
 }
 
@@ -45,13 +45,12 @@ body {
 }
 
 footer {
-  background-color: #848484;
+  background-color: #3A3E3C;
   color: #ffff;
 }
 
 .social img {
-  width: 3em;
-  padding: 1em;
+  width: 20%;
 }
 
 .caption {
@@ -60,6 +59,38 @@ footer {
 
 .nav li:hover {
   color: #8cb7d3;
+}
+
+.big {
+  font-size: 60px;
+}
+
+.b-blue {
+  color: #92B6E6;
+}
+
+.mint {
+  color: #96D6B2;
+}
+
+.yellow {
+  color: #F7C646;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+  letter-spacing: .5px;
+}
+
+.icon{
+  transition: all linear 2s ease;
+}
+
+.icon:hover{
+  transform: scale(1.15,1.15);
 }
 
 @media only screen and (min-width: 25em) {
