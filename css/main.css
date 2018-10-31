@@ -51,6 +51,8 @@ footer {
 
 .social img {
   width: 20%;
+  max-width: 60px;
+  min-width: 50px;
 }
 
 .caption {
@@ -77,6 +79,14 @@ footer {
   color: #F7C646;
 }
 
+.blue {
+  color: #9FD5DF;
+}
+
+.footer {
+  color: #A39E9E;
+}
+
 p {
   font-family: 'Open Sans', sans-serif;
 }
@@ -96,7 +106,7 @@ h4 {
 @media only screen and (min-width: 25em) {
 
   .big {
-    font-size: 50px;
+    font-size: 80px;
     line-height: 60px;
   }
 
@@ -122,7 +132,7 @@ h4 {
   }
 
   .big {
-    font-size: 60px;
+    font-size: 100px;
     line-height: 90px
   }
 
@@ -131,8 +141,8 @@ h4 {
 @media only screen and (min-width: 60em) {
 
   .big {
-    font-size: 100px;
-    line-height: 110px
+    font-size: 140px;
+    line-height: 120px
   }
 
 }
