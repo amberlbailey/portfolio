@@ -111,7 +111,7 @@ h4 {
 }
 
 .rounded {
-  border-radius: 50px;
+  border-radius: 20px;
 }
 
 .rounded{
@@ -153,6 +153,10 @@ h4 {
   .big {
     font-size: 100px;
     line-height: 90px
+  }
+
+  .rounded {
+    border-radius: 30px;
   }
 
 }
