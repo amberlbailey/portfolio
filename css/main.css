@@ -83,7 +83,7 @@ footer {
 }
 
 .blue {
-  color: #9FD5DF;
+  color: #9FDEEA;
 }
 
 .orange {
@@ -94,7 +94,7 @@ footer {
   color: #A39E9E;
 }
 
-p, h2 {
+p, h2, li {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -120,6 +120,17 @@ h4 {
 
 .rounded:hover {
   transform: scale(1.03,1.03);
+}
+
+ul li {
+  color: #3A3E3C;
+  list-style-type: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #92B6E6;
+  padding-right: .5em;
 }
 
 @media only screen and (min-width: 25em) {
