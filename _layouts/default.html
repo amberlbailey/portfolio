@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>{% if page.title %}{{ page.title }} ⋅ {% endif %} It's Amber's Portfolio ⋅ Branding designer and illustrator who loves colour ⋅ Ottawa, Canada</title>
+  <title>{{page.title}}</title>
   <meta name="description" content="{% if page.meta %}{{ page.meta }}{% endif %}">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="{{site.baseurl}}/css/modules.css" rel="stylesheet">
@@ -12,15 +12,13 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:700,900" rel="stylesheet">
 </head>
   <body>
-    <div class="nav push-0">
+    <div class="nav">
       <div class="logo-wrapper pad-t">
         <a href="{{site.baseurl}}/"><img class="logo" src="{{site.baseurl}}/images/logo-black.svg" onmouseover="src='{{site.baseurl}}/images/logo-color.svg'" onmouseout="src='{{site.baseurl}}/images/logo-black.svg'" alt=""></a>
       </div>
-      <nav>
-        <ul class="push-0 mega">
-          <a href="mailto:hey@itsamber.ca"><li class="gutter-1-2">Contact</li></a>
-        </ul>
-      </nav>
+      <div>
+        <a href="mailto:hey@itsamber.ca"><img class="logo" src="{{site.baseurl}}/images/contact-black.svg" onmouseover="src='{{site.baseurl}}/images/contact-color.svg'" onmouseout="src='{{site.baseurl}}/images/contact-black.svg'" alt=""></a>
+      </div>
     </div>
 
     <main>
@@ -36,11 +34,11 @@
         </div>
         <div class="social text-center pad-bottom">
           <a href="mailto:hey@itsamber.ca">
-            <img class="gutter-1-8 icon" src="{{site.baseurl}}/images/email.svg" onmouseover="src={{site.baseurl}}/'images/email-hover.svg'" onmouseout="src={{site.baseurl}}/'images/email.svg'" alt="email icon"></a>
+            <img class="gutter-1-8 icon" src="{{site.baseurl}}/images/email.svg" onmouseover="src='{{site.baseurl}}/images/email-hover.svg'" onmouseout="src='{{site.baseurl}}/images/email.svg'" alt="email icon"></a>
           <a href="https://www.instagram.com/itsambersdesigns/?hl=en">
-            <img class="gutter-1-8 icon" src="{{site.baseurl}}/images/ig.svg" onmouseover="src={{site.baseurl}}/'images/ig-hover.svg'" onmouseout="src={{site.baseurl}}/'images/ig.svg'" alt="instagram icon"></a>
+            <img class="gutter-1-8 icon" src="{{site.baseurl}}/images/ig.svg" onmouseover="src='{{site.baseurl}}/images/ig-hover.svg'" onmouseout="src='{{site.baseurl}}/images/ig.svg'" alt="instagram icon"></a>
           <a href="https://www.behance.net/bail0159bb64">
-            <img class="gutter-1-8 icon" src="{{site.baseurl}}/images/behance.svg" onmouseover="src={{site.baseurl}}/'images/behance-hover.svg'" onmouseout="src={{site.baseurl}}/'images/behance.svg'" alt="behance icon"></a>
+            <img class="gutter-1-8 icon" src="{{site.baseurl}}/images/behance.svg" onmouseover="src='{{site.baseurl}}/images/behance-hover.svg'" onmouseout="src='{{site.baseurl}}/images/behance.svg'" alt="behance icon"></a>
         </div>
         <div class="pico max-length pad-b-1-2 pad-t text-center footer">
           <p>©Copyright Amber Bailey</p>
