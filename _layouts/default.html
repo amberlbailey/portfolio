@@ -12,32 +12,32 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:700,900" rel="stylesheet">
 </head>
   <body>
-    <div class="nav">
+    <nav role="navigation" class="nav">
       <div class="logo-wrapper pad-t">
-        <a href="{{site.baseurl}}/"><img class="logo" src="{{site.baseurl}}/images/logo-black.svg" onmouseover="src='{{site.baseurl}}/images/logo-color.svg'" onmouseout="src='{{site.baseurl}}/images/logo-black.svg'" alt=""></a>
+        <a href="{{site.baseurl}}/" aria-label="Go back the the home page"><img class="logo" src="{{site.baseurl}}/images/logo-black.svg" onmouseover="src='{{site.baseurl}}/images/logo-color.svg'" onmouseout="src='{{site.baseurl}}/images/logo-black.svg'" alt=""></a>
       </div>
       <div>
-        <a href="mailto:hey@itsamber.ca"><img class="logo" src="{{site.baseurl}}/images/contact-black.svg" onmouseover="src='{{site.baseurl}}/images/contact-color.svg'" onmouseout="src='{{site.baseurl}}/images/contact-black.svg'" alt=""></a>
+        <a href="mailto:hey@itsamber.ca" aria-label="Email Amber Bailey"><img class="logo" src="{{site.baseurl}}/images/contact-black.svg" onmouseover="src='{{site.baseurl}}/images/contact-color.svg'" onmouseout="src='{{site.baseurl}}/images/contact-black.svg'" alt=""></a>
       </div>
-    </div>
+    </nav>
 
-    <main>
+    <main role="main" id="main" tabindex="0">
       {{content}}
     </main>
 
-    <footer>
+    <footer role="contentinfo">
       <div class="pad-t-2 gutter">
         <div class="max-length pad-b">
-          <h4 class="push-0 zetta">Hey who is Amber?</h4>
+          <h4 class="push-0 zetta">Hey who is this Amber?</h4>
           <p class="giga push-0">I’m a <span class="bold b-blue">graphic designer</span> from Ottawa. With a love for all things <span class="bold mint">branding</span> and <span class="bold yellow">illustration.</span></p>
           <p class="milli pad-t-1-4">When everyone asked me what I wanted to be when I grew up, I had no idea until I went to New York City. It wasn't until I was staring at a billboard that I said to myself "I want to do this". Having this experience has inspired me to try anything new and to jump feet first into any  challenge.</p>
         </div>
         <div class="social text-center pad-bottom">
-          <a itemprop="email" href="mailto:hey@itsamber.ca">
+          <a itemprop="email" href="mailto:hey@itsamber.ca" aria-label="Email Amber Bailey">
           <img class="gutter-1-8 icon" src="{{site.baseurl}}/images/email.svg" onmouseover="src='{{site.baseurl}}/images/email-hover.svg'" onmouseout="src='{{site.baseurl}}/images/email.svg'" alt="email icon"></a>
-          <a itemprop="instagram" href="https://www.instagram.com/itsambersdesigns/?hl=en">
+          <a itemprop="instagram" href="https://www.instagram.com/itsambersdesigns/?hl=en" aria-label="Go to Amber Bailey's instagram">
           <img class="gutter-1-8 icon" src="{{site.baseurl}}/images/ig.svg" onmouseover="src='{{site.baseurl}}/images/ig-hover.svg'" onmouseout="src='{{site.baseurl}}/images/ig.svg'" alt="instagram icon"></a>
-          <a itemprop="behance" href="https://www.behance.net/bail0159bb64">
+          <a itemprop="behance" href="https://www.behance.net/bail0159bb64" aria-label="Got to Amber Bailey's behance">
           <img class="gutter-1-8 icon" src="{{site.baseurl}}/images/behance.svg" onmouseover="src='{{site.baseurl}}/images/behance-hover.svg'" onmouseout="src='{{site.baseurl}}/images/behance.svg'" alt="behance icon"></a>
         </div>
         <div class="pico max-length pad-b-1-2 pad-t text-center footer">
