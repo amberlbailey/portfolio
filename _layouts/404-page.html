@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>{{page.title}}</title>
+  <meta name="description" content="{% if page.meta %}{{ page.meta }}{% endif %}">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="{{site.baseurl}}/css/site.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:700,900" rel="stylesheet">
+</head>
+  <body>
+    <nav role="navigation" class="nav">
+      <div class="logo-wrapper pad-t">
+        <a href="{{site.baseurl}}/" aria-label="Go back the the home page"><img class="logo" src="{{site.baseurl}}/www/images/home-page/logo-black.svg" onmouseover="src='{{site.baseurl}}/www/images/home-page/logo-color.svg'" onmouseout="src='{{site.baseurl}}/www/images/home-page/logo-black.svg'" alt=""></a>
+      </div>
+      <div>
+        <a href="mailto:hey@itsamber.ca" aria-label="Email Amber Bailey"><img class="logo" src="{{site.baseurl}}/www/images/home-page/contact-black.svg" onmouseover="src='{{site.baseurl}}/www/images/home-page/contact-color.svg'" onmouseout="src='{{site.baseurl}}/www/images/home-page/contact-black.svg'" alt=""></a>
+      </div>
+    </nav>
+
+    <main role="main" id="main">
+      {{content}}
+    </main>
+
+    <footer role="contentinfo">
+      <div class="pad-t-2 gutter">
+        <div class="social text-center pad-bottom">
+          <a itemprop="email" href="mailto:hey@itsamber.ca" aria-label="Email Amber Bailey">
+          <img class="gutter-1-8 icon" src="{{site.baseurl}}/www/images/home-page/email.svg" onmouseover="src='{{site.baseurl}}/www/images/home-page/email-hover.svg'" onmouseout="src='{{site.baseurl}}/www/images/home-page/email.svg'" alt="email icon"></a>
+          <a itemprop="instagram" href="https://www.instagram.com/itsambersdesigns/?hl=en" aria-label="Go to Amber Bailey's instagram">
+          <img class="gutter-1-8 icon" src="{{site.baseurl}}/www/images/home-page/ig.svg" onmouseover="src='{{site.baseurl}}/www/images/home-page/ig-hover.svg'" onmouseout="src='{{site.baseurl}}/www/images/home-page/ig.svg'" alt="instagram icon"></a>
+          <a itemprop="behance" href="https://www.behance.net/bail0159bb64" aria-label="Got to Amber Bailey's behance">
+          <img class="gutter-1-8 icon" src="{{site.baseurl}}/www/images/home-page/behance.svg" onmouseover="src='{{site.baseurl}}/www/images/home-page/behance-hover.svg'" onmouseout="src='{{site.baseurl}}/www/images/home-page/behance.svg'" alt="behance icon"></a>
+        </div>
+        <div class="pico max-length pad-b-1-2 pad-t text-center footer">
+          <p>©Copyright Amber Bailey</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
