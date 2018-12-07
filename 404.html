@@ -4,9 +4,24 @@ title : 404 Page ⋅ It's Amber's Portfolio
 meta: A 404 page redirecting the user back to home.
 ---
   <div class="grid">
-    <header role="banner" class="unit xs-1 pad-b header gutter max-length">
-      <h2 class="not-bold push-0 giga">Hey it's a</h2>
-      <h1 class="tenamega big push-0 b-blue pad-b-1-2">404 Page</h1>
-      <p class="giga">Looks like you need some help finding the right page</p>
-    </header>
+    <div class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-2 text-center">
+      <img class="cat" src="{{site.baseurl}}/www/images/404/404.jpg" alt="Cat in a party hat">
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="unit xs-1 s-1 m-1 l-1 xl-1 max-length gutter text-center">
+      <header role="banner" class="unit xs-1 pad-b header">
+        <h2 class="not-bold push-0 giga pad-b-1-4">Hey surprise it's a</h2>
+        <h1 class="tenamega big push-0 b-blue">404</h1>
+        <p class="giga">page with absolutely nothing on it because somebody ate all the treats.</p>
+      </header>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-b-2 treat text-center">
+      <a href="{{site.baseurl}}" aria-label="Go back to the home page">
+        <img class="gutter-1-4" src="{{site.baseurl}}/www/images/404/treats-black.svg" onmouseover="src='{{site.baseurl}}/www/images/404/treats-color.svg'" onmouseout="src='{{site.baseurl}}/www/images/404/treats-black.svg'" alt="Back to home button"></a>
+    </div>
   </div>

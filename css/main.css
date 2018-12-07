@@ -53,10 +53,6 @@ a:focus {
   width: 90px;
 }
 
-.logo-wrapper {
-  padding-bottom: 0.5em;
-}
-
 .photos img {
   width: 99%;
 }
@@ -75,6 +71,13 @@ footer {
   width: 20%;
   max-width: 60px;
   min-width: 50px;
+}
+
+.cat {
+  width: 40%;
+  max-width: 300px;
+  min-width: 300px;
+}
 }
 
 .caption {
@@ -158,6 +161,10 @@ ul li::before {
   width: 150px;
 }
 
+.treat img {
+  width: 200px;
+}
+
 .back-top img:hover {
   transform: scale(1.03,1.03);
 }
@@ -203,7 +210,7 @@ ul li::before {
   }
 
   .nav {
-    padding-bottom: 15em;
+    padding-bottom: 6em;
     padding-top: 3em;
     text-align: right;
   }
