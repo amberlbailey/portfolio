@@ -32,7 +32,7 @@ a:focus {
 
 .nav ul a:hover {
   background-color: #F3950D;
-  color: #ffff;
+  color: #fff;
   border-radius: 10px;
 }
 
@@ -53,8 +53,13 @@ a:focus {
   width: 90px;
 }
 
+.photos div div a img,
 .photos img {
   width: 99%;
+}
+
+.photos div div a img.next-project {
+  width: 150px;
 }
 
 .h-logo {
@@ -67,8 +72,7 @@ footer {
   color: #ffff;
 }
 
-.social img {
-  width: 20%;
+.social a img {
   max-width: 60px;
   min-width: 50px;
 }
@@ -129,8 +133,14 @@ h4 {
   transform: scale(1.15,1.15);
 }
 
+div img,
 .rounded {
-  border-radius: 20px;
+  border-radius: 30px;
+}
+
+div img.next-project,
+.social a i img, .logo-wrapper a img {
+  border-radius: 0;
 }
 
 .rounded{
@@ -155,10 +165,6 @@ ul li::before {
 .bold-weight {
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
-}
-
-.next-project img {
-  width: 150px;
 }
 
 .treat img {
@@ -220,7 +226,7 @@ ul li::before {
     line-height: 90px
   }
 
-  .rounded {
+.rounded {
     border-radius: 30px;
   }
 
