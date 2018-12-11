@@ -151,7 +151,7 @@ div img.next-project,
   transform: scale(1.03,1.03);
 }
 
-ul li {
+a ul li {
   color: #3A3E3C;
   list-style-type: none;
 }
