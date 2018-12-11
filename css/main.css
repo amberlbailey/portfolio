@@ -49,10 +49,6 @@ a:focus {
   padding: 0;
 }
 
-.logo {
-  width: 90px;
-}
-
 .photos div div a img,
 .photos img {
   width: 99%;
@@ -125,17 +121,17 @@ h4 {
   letter-spacing: .5px;
 }
 
-.icon, .logo {
+.icon, .logo, .contact {
   transition: all linear 3s ease;
 }
 
-.icon:hover, .logo:hover{
+.icon:hover, .logo:hover, .contact:hover {
   transform: scale(1.15,1.15);
 }
 
 div img,
 .rounded {
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 div img.next-project,
@@ -197,7 +193,19 @@ a {
   text-decoration: none;
 }
 
+.logo {
+  width: 90px;
+}
+
+.contact {
+  width: 70px;
+}
+
 @media only screen and (min-width: 25em) {
+
+  .contact {
+    width: 90px;
+  }
 
   .big {
     font-size: 80px;
