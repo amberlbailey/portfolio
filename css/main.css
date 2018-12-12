@@ -46,6 +46,11 @@ a:focus {
   padding-top: 2em;
   text-align: right;
   background-color: #fff;
+  z-index: 1;
+}
+
+.photos {
+  z-index: 0;
 }
 
 .nav a {
