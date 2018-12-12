@@ -10,7 +10,7 @@ body {
 
 [tabindex="0"]:focus,
 a:focus {
-  outline: 3px solid #92B6E6;
+  outline: 3px solid #000;
   z-index: 4;
 }
 
@@ -30,8 +30,7 @@ a:focus {
   top: 0;
   width: 100%;
   padding-bottom: 1em;
-  padding-top: 2em;
-  text-align: right;
+  padding-top: 1em;
   background-color: #fff;
   z-index: 1;
 }
@@ -45,7 +44,8 @@ a:focus {
 }
 
 .logo {
-  width: 70px;
+  max-width: 60px;
+  min-width: 50px;
 }
 
 .contact {
