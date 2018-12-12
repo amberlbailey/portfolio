@@ -33,19 +33,12 @@ a:focus {
   padding-top: 1em;
   background-color: #fff;
   z-index: 1;
-}
-
-.logo-wrapper {
-  float: left;
-}
-
-.contact-wrapper {
-  float: right;
+  text-align: center;
 }
 
 .logo {
-  max-width: 60px;
-  min-width: 50px;
+  max-width: 70px;
+  min-width: 60px;
 }
 
 .contact {
@@ -57,7 +50,7 @@ a:focus {
 }
 
 main {
-  margin-top: 150px;
+  margin-top: 200px;
 }
 
 .photos div div a img,
@@ -204,10 +197,6 @@ a {
     width: 90px;
   }
 
-  .logo {
-    width: 90px;
-  }
-
   .big {
     font-size: 80px;
     line-height: 70px;
@@ -232,6 +221,14 @@ a {
 
   main {
     margin-top: 200px;
+  }
+
+  .logo-wrapper {
+    float: left;
+  }
+
+  .contact-wrapper {
+    float: right;
   }
 
 }
