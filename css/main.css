@@ -38,15 +38,27 @@ a:focus {
 
 .nav {
   padding: 2em;
-  text-align: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  text-align: right;
+  background-color: #fff;
 }
 
-.nav li {
-  display: inline;
+.nav a {
+  display: block;
 }
 
-.nav ul {
-  padding: 0;
+main {
+  margin-top: 150px;
+}
+
+.logo-wrapper {
+  position: absolute;
+  top: 2.5%;
 }
 
 .photos div div a img,
@@ -77,7 +89,6 @@ footer {
   width: 40%;
   max-width: 300px;
   min-width: 300px;
-}
 }
 
 .caption {
@@ -194,11 +205,11 @@ a {
 }
 
 .logo {
-  width: 90px;
+  width: 60px;
 }
 
 .contact {
-  width: 70px;
+  width: 60px;
 }
 
 @media only screen and (min-width: 25em) {
@@ -207,43 +218,35 @@ a {
     width: 90px;
   }
 
+  .logo {
+    width: 90px;
+  }
+
   .big {
     font-size: 80px;
     line-height: 70px;
-  }
-
-  .h-logo {
-    width: 250px;
-    margin: -10px;
   }
 
 }
 
 @media only screen and (min-width: 38em) {
 
-  .logo-wrapper {
-    text-align: left;
-    position: absolute;
-    top: 2.5%;
-  }
-
-  .nav {
-    padding-bottom: 6em;
-    padding-top: 3em;
-    text-align: right;
-  }
-
   .big {
     font-size: 100px;
     line-height: 90px
   }
 
-.rounded {
+  .rounded {
     border-radius: 30px;
   }
 
   .btn {
     border-radius: 15px;
+  }
+
+  main {
+    margin-top: 200px;
+  }
 
 }
 
@@ -252,6 +255,10 @@ a {
   .big {
     font-size: 140px;
     line-height: 120px
+  }
+
+  main {
+    margin-top: 250px;
   }
 
 }
