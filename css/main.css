@@ -231,6 +231,11 @@ a {
     float: right;
   }
 
+  .contact {
+    padding-top: 1em;
+    width: 70px;
+  }
+
   .social a img {
     max-width: 60px;
     min-width: 50px;
