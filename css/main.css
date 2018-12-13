@@ -67,6 +67,10 @@ footer {
   color: #ffff;
 }
 
+.grey {
+  color: #3A3E3C;
+}
+
 .social a img {
   max-width: 60px;
   min-width: 50px;
@@ -107,8 +111,8 @@ footer {
   color: #F3950D;
 }
 
-.footer {
-  color: #A39E9E;
+.footer, .light-grey {
+  color: #B4B6B8;
 }
 
 p, h2, li {
@@ -145,15 +149,10 @@ div img.next-project,
   transform: scale(1.03,1.03);
 }
 
-a ul li {
+ul {
   color: #3A3E3C;
   list-style-type: none;
-}
-
-ul li::before {
-  content: "\2022";
-  color: #92B6E6;
-  padding-right: .5em;
+  text-decoration: none;
 }
 
 .bold-weight {
