@@ -59,7 +59,7 @@ main {
 }
 
 .photos div div a img.next-project {
-  width: 150px;
+  width: 200px;
 }
 
 footer {
@@ -123,11 +123,11 @@ h4 {
   letter-spacing: .5px;
 }
 
-.icon, .logo, .contact {
+.icon, .logo, .contact, .next-project {
   transition: all linear 3s ease;
 }
 
-.icon:hover, .logo:hover, .contact:hover {
+.icon:hover, .logo:hover, .contact:hover{
   transform: scale(1.15,1.15);
 }
 
@@ -145,7 +145,7 @@ div img.next-project,
   transition: all linear 2s ease;
 }
 
-.rounded:hover {
+.rounded:hover, .next-project:hover {
   transform: scale(1.03,1.03);
 }
 
