@@ -153,6 +153,7 @@ ul {
   color: #3A3E3C;
   list-style-type: none;
   text-decoration: none;
+  padding: 0;
 }
 
 .bold-weight {
@@ -193,7 +194,7 @@ a {
 @media only screen and (min-width: 25em) {
 
   .contact {
-    width: 90px;
+    width: 70px;
   }
 
   .big {
