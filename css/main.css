@@ -37,8 +37,8 @@ a:focus {
 }
 
 .logo {
-  max-width: 70px;
-  min-width: 60px;
+  max-width: 60px;
+  min-width: 50px;
 }
 
 .contact {
