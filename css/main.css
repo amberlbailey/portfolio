@@ -42,7 +42,7 @@ a:focus {
 }
 
 .contact {
-  width: 75px;
+  width: 60px;
 }
 
 .photos {
@@ -194,7 +194,7 @@ a {
 @media only screen and (min-width: 25em) {
 
   .contact {
-    width: 70px;
+    width: 60px;
   }
 
   .big {
