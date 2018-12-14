@@ -137,7 +137,7 @@ div img,
 }
 
 div img.next-project,
-.social a i img, .logo-wrapper a img, .contact {
+.social a i img, .logo-wrapper a img, .contact, .iconography {
   border-radius: 0;
 }
 
