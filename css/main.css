@@ -37,12 +37,13 @@ a:focus {
 }
 
 .logo {
-  max-width: 60px;
-  min-width: 50px;
+  max-width: 75px;
+  min-width: 65px;
 }
 
 .contact {
-  width: 60px;
+  max-width: 90px;
+  min-width: 80px;
 }
 
 .photos {
@@ -194,7 +195,8 @@ a {
 @media only screen and (min-width: 25em) {
 
   .contact {
-    width: 70px;
+    max-width: 100px;
+    min-width: 90px;
   }
 
   .big {
@@ -232,8 +234,8 @@ a {
   }
 
   .contact {
-    padding-top: 1.5em;
-    width: 90px;
+    padding-top: 2em;
+    width: 100px;
   }
 
   .social a img {
@@ -255,6 +257,7 @@ a {
   }
 
   .contact {
-    padding-top: 1em;
+    padding-top: 1.5em;
+    width: 110px;
 
 }
