@@ -115,7 +115,7 @@ footer {
   color: #B4B6B8;
 }
 
-p, h2, li {
+p, h2, li, figcaption {
   font-family: 'Open Sans', sans-serif;
 }
 
