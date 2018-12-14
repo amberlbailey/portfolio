@@ -194,7 +194,7 @@ a {
 @media only screen and (min-width: 25em) {
 
   .contact {
-    width: 60px;
+    width: 70px;
   }
 
   .big {
@@ -232,8 +232,8 @@ a {
   }
 
   .contact {
-    padding-top: 1em;
-    width: 70px;
+    padding-top: 1.5em;
+    width: 90px;
   }
 
   .social a img {
@@ -253,5 +253,8 @@ a {
   main {
     margin-top: 250px;
   }
+
+  .contact {
+    padding-top: 1em;
 
 }
