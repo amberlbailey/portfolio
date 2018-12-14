@@ -111,7 +111,7 @@ div img,
 }
 
 div img.next-project,
-.social a i img, .logo-wrapper a img, .contact, .iconography {
+.social a i img, .logo-wrapper a img, .contact, .iconography, .treat img {
   border-radius: 0;
 }
 
@@ -166,9 +166,9 @@ footer {
 }
 
 .cat {
-  width: 40%;
+  width: 50%;
   max-width: 300px;
-  min-width: 300px;
+  min-width: 200px;
 }
 
 .treat img {
@@ -226,6 +226,10 @@ footer {
   .social a img {
     max-width: 60px;
     min-width: 50px;
+  }
+
+  .treat img {
+    width: 250px;
   }
 
 }
