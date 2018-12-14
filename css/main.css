@@ -37,8 +37,8 @@ a:focus {
 }
 
 .logo {
-  max-width: 75px;
-  min-width: 65px;
+  max-width: 50px;
+  min-width: 40px;
 }
 
 .contact {
@@ -197,6 +197,11 @@ a {
   .contact {
     max-width: 100px;
     min-width: 90px;
+  }
+
+  .logo {
+    max-width: 75px;
+    min-width: 65px;
   }
 
   .big {
