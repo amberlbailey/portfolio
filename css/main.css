@@ -23,6 +23,10 @@ body {
   background-color: #96D6B2;
 }
 
+.btn-orange {
+  background-color: #F3950D;
+}
+
 .yellow {
   color: #F7C646;
 }
@@ -33,6 +37,14 @@ body {
 
 .orange {
   color: #F3950D;
+}
+
+.orange-fade {
+  color: #F2BE6B;
+}
+
+.b-blue-fade {
+  color: #B5D1FF;
 }
 
 .footer, .light-grey {
@@ -47,6 +59,13 @@ body {
 
 .btn:hover {
   background-color: #92B6E6;
+}
+
+.raquel:hover {
+  background-color: #92B6E6;
+  color: white;
+  padding: 2px;
+  border-radius: 5px;
 }
 
 [tabindex="0"]:focus,
@@ -154,6 +173,11 @@ a {
 .social a img {
   max-width: 50px;
   min-width: 40px;
+}
+
+.profile {
+  max-width: 170px;
+  min-width: 100px;
 }
 
 footer {
