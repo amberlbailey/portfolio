@@ -137,7 +137,7 @@ div img,
 }
 
 div img.next-project,
-.social a i img, .logo-wrapper a img, .contact, .iconography, .treat img, .divider {
+.social a i img, .logo-wrapper a img, .contact, .iconography, .treat img, .divider, .side {
   border-radius: 0;
 }
 
@@ -146,7 +146,8 @@ div img.next-project,
 }
 
 .side {
-  width: 175px;
+  max-width: 220px;
+  min-width: 150px;
 }
 
 .icon, .logo, .next-project {
