@@ -146,8 +146,8 @@ div img.next-project,
 }
 
 .side {
-  max-width: 220px;
-  min-width: 150px;
+  max-width: 160px;
+  min-width: 140px;
 }
 
 .icon, .logo, .next-project {
@@ -222,6 +222,11 @@ ul {
   .big {
     font-size: 65px;
     line-height: 70px;
+  }
+
+  .side {
+    max-width: 230px;
+    min-width: 210px;
   }
 
 }
