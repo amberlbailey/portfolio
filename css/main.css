@@ -1,4 +1,4 @@
-html {
+html, .current, .email {
   font-family: 'Roboto', sans-serif;
   background-color: #ffff;
   color: #3A3E3C;
@@ -87,6 +87,7 @@ a:focus {
   padding: 2em;
   overflow: hidden;
   position: fixed;
+  align-items: center;
   top: 0;
   width: 100%;
   padding-bottom: 1em;
@@ -101,9 +102,30 @@ a:focus {
   min-width: 40px;
 }
 
-.contact {
-  max-width: 90px;
-  min-width: 80px;
+.email, .current {
+  max-width: 100px;
+  min-width: 90px;
+  padding-top: 2em;
+}
+
+.email {
+  text-align: center;
+}
+
+.current a, .email a, .side-project a {
+  color: #3A3E3C;
+}
+
+.current a:hover, .email a:hover, .side-project a:hover {
+  color: #92B6E6;
+}
+
+.logo-wrapper {
+  float: left;
+}
+
+.contact-wrapper {
+  float: right;
 }
 
 main {
@@ -138,19 +160,19 @@ div img.next-project,
   width: 175px;
 }
 
-.icon, .logo, .contact, .next-project {
+.icon, .logo, .next-project {
   transition: all linear 3s ease;
 }
 
-.rounded{
+.rounded {
   transition: all linear 2s ease;
 }
 
-.icon:hover, .logo:hover, .contact:hover{
+.icon:hover, .logo:hover, .current:hover, .email:hover {
   transform: scale(1.15,1.15);
 }
 
-.rounded:hover, .next-project:hover {
+.rounded:hover, .next-project:hover, .side-project:hover {
   transform: scale(1.03,1.03);
 }
 
@@ -180,6 +202,11 @@ a {
   min-width: 150px;
 }
 
+.divider {
+  max-width: 120px;
+  min-width: 100px;
+}
+
 footer {
   background-color: #3A3E3C;
   color: #fff;
@@ -206,11 +233,6 @@ footer {
     min-width: 40px;
   }
 
-  .contact {
-    max-width: 100px;
-    min-width: 90px;
-  }
-
   .big {
     font-size: 65px;
     line-height: 70px;
@@ -220,22 +242,9 @@ footer {
 
 @media only screen and (min-width: 38em) {
 
-  .logo-wrapper {
-    float: left;
-  }
-
-  .contact-wrapper {
-    float: right;
-  }
-
   .logo {
     max-width: 75px;
     min-width: 65px;
-  }
-
-  .contact {
-    padding-top: 2em;
-    width: 100px;
   }
 
   main {
@@ -268,9 +277,4 @@ footer {
   main {
     margin-top: 250px;
   }
-
-  .contact {
-    padding-top: 1.5em;
-    width: 110px;
-
 }
