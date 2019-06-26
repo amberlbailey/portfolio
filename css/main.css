@@ -1,4 +1,4 @@
-html, .contact a, .side-project a {
+html {
   font-family: 'Roboto', sans-serif;
   background-color: #ffff;
   color: #3A3E3C;
@@ -110,8 +110,17 @@ a:focus {
   text-align: center;
 }
 
-.current a, .email a, .side-project a {
+.contact a, .side-project a {
   color: #3A3E3C;
+  font-family: 'Roboto', sans-serif;
+}
+
+a:link {
+    color: #3A3E3C;
+}
+
+a:hover {
+  color: #92B6E6;
 }
 
 .current a:hover, .email a:hover, .side-project a:hover {
