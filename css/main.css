@@ -137,11 +137,15 @@ div img,
 }
 
 div img.next-project,
-.social a i img, .logo-wrapper a img, .contact, .iconography, .treat img {
+.social a i img, .logo-wrapper a img, .contact, .iconography, .treat img, .divider {
   border-radius: 0;
 }
 
 .photos div div a img.next-project {
+  width: 175px;
+}
+
+.side {
   width: 175px;
 }
 
@@ -157,7 +161,7 @@ div img.next-project,
   transform: scale(1.15,1.15);
 }
 
-.rounded:hover, .next-project:hover, .side-project:hover {
+.rounded:hover, .next-project:hover, .side:hover {
   transform: scale(1.03,1.03);
 }
 
