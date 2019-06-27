@@ -150,7 +150,7 @@ div img.next-project,
   min-width: 140px;
 }
 
-.icon, .logo, .next-project, .side img {
+.icon, .logo, .next-project, .side {
   transition: all linear 3s ease;
 }
 
