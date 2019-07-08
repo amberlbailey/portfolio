@@ -114,7 +114,7 @@ a:focus {
 }
 
 .business {
-20px;
+  max-width: 520px;
   min-width: 400px;
 }
 
