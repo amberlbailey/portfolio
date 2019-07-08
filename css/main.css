@@ -113,6 +113,11 @@ a:focus {
   padding-top: 2em;
 }
 
+.business {
+20px;
+  min-width: 400px;
+}
+
 main {
   margin-top: 200px;
 }
